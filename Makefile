@@ -7,10 +7,10 @@ OBJS = Display.cpp\
 #CC specifies which compiler we're using
 CC = g++
 #INCLUDE_PATHS specifies the additional include paths we'll need
-INCLUDE_PATHS = -IC:\Mingw\mingw64\include\SDL2
+INCLUDE_PATHS = -I"i686-w64-mingw32\include\SDL2"
 
 #LIBRARY_PATHS specifies the additional library paths we'll need
-LIBRARY_PATHS = -LC:\Mingw\mingw64\lib
+LIBRARY_PATHS = -L"i686-w64-mingw32\lib"
 
 #COMPILER_FLAGS specifies the additional compilation options we're using
 # -w suppresses all warnings

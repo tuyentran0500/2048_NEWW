@@ -1,7 +1,16 @@
-# 2048_TUYEN
-### EZ GAME
-HOW TO USE:
-- Mở thư mục 2048: nhấp shift + chuột phải --> Nhấn Open Command window here
-- Hiện ra file cmd: gõ make, đợi 1 lúc.
-- gõ 2048.exe and enjoy.  
-*Lưu ý: Các lần sau ta chỉ cần ấn 2048.exe trong file 2048 để chơi.* 
+# 2048
+This is an attempt of implementing the infamous 2048 game.
+## Requirement
+- `g++` to compile the game  
+- `SDL2`library.  
+## How to run.  
+- Find the `i686-w64-mingw32/bin` folder, and copy.
+- Find the `bin` of `Mingw` and paste.  
+- Open cmd inside the folder and run `mingw32-make`.  
+
+## How to play  
+- https://levelskip.com/puzzle/How-to-play-2048 
+- To have the best experience, please use Xbox/PS5 controller.  
+
+## Reference for learning  
+- [Lazy's foo website](https://lazyfoo.net/tutorials/SDL/index.php)  
